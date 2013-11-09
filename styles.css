@@ -1,0 +1,129 @@
+@font-face {
+  font-family: 'Adelle';
+  src: url("fonts/adelle_reg-webfont.eot");
+  src: url("fonts/adelle_reg-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/adelle_reg-webfont.woff") format("woff"), url("fonts/adelle_reg-webfont.ttf") format("truetype"), url("fonts/adelle_reg-webfont.svg#AdelleRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Adelle';
+  src: url("fonts/adelle_semibold-webfont.eot");
+  src: url("fonts/adelle_semibold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/adelle_semibold-webfont.woff") format("woff"), url("fonts/adelle_semibold-webfont.ttf") format("truetype"), url("fonts/adelle_semibold-webfont.svg#AdelleRegular") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ChunkFive';
+  src: url("fonts/chunkfive-webfont.eot");
+  src: url("fonts/chunkfive-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/chunkfive-webfont.woff") format("woff"), url("fonts/chunkfive-webfont.ttf") format("truetype"), url("fonts/chunkfive-webfont.svg#ChunkFiveRoman") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+color: #67727E;
+font-family: "Adelle", georgia, serif;
+font-size: 16px;
+line-height: 1.8;
+  background: #e7ebf1;
+}
+
+
+	a {color:white;}
+	.bd {text-align:center;}
+
+	.hd {
+		text-align:center; 
+		color:#67727E;
+		font-family: "ChunkFive";
+		text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.8);
+
+		font-size:76px;
+		margin-left: 0px; 
+		margin-right:0px;
+		margin-bottom: 10px;
+		padding-top:5%;
+	}
+
+	.outercontainer {
+		position:absolute;
+		height:100%;
+		width:100%;
+	}
+
+	.desc {text-align:center; color:white;font-size:12px;margin-bottom: 10px;}
+	.instructions {width:600px; margin-left:auto; margin-right:auto; padding-top:30px; text-align:left; color:white;font-size:12px;margin-bottom: 10px;}
+	.footer {text-align:center;color:white;font-size:12px; margin:20px;}
+	.container {margin:0 auto;width:264px;}
+
+	.slot-wrapper {
+		width:264px;
+		/*width:650px;*/
+		border: 1px solid #000000;
+		background: #cccccc;
+		background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #888888));
+		background-image: -moz-linear-gradient(top, #FFFFFF 0%, #888888 100%);
+		background-image: -o-linear-gradient(top, #FFFFFF 0%, #888888 100%);
+		background-image: linear-gradient(top, #FFFFFF 0%, #888888 100%);
+		background-image: -ms-linear-gradient(top, #FFFFFF 0%, #888888 100%);
+		border-radius: 0px;
+	}
+
+	.slot {
+		background:url("images/reel_normal_numbers.png") repeat-y;
+		width:86px;
+		height:70px;
+		float:left;
+		border:1px solid #aaa;
+		border-radius: 0px;
+		background-position:0 0px;
+	}
+
+	.slotstopped {border: 1px solid #000;}
+
+
+/*	.slotx {
+		background:url("images/reel_x.png") repeat-y;
+		width:86px;
+		height:70px;
+		float:left;
+		border:0px solid #aaa;
+		background-position:0 0px;
+	}
+
+	.slotdash {
+		background:url("images/reel_dash.png") repeat-y;
+		width:40px;
+		height:70px;
+		float:left;
+		border:0px solid #aaa;
+		background-position:0 0px;
+	}*/
+
+	.motion {
+		background:url("images/reel_blur_numbers.png") repeat-y;
+	}
+
+	button {
+		display:block;
+		align: center;
+		width:100px;
+		height:20px;
+		margin:20px;
+		margin-left: auto;
+		margin-right: auto;
+		font-size:12px;
+		border-radius: 5px;
+		cursor:pointer;
+		background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #888888));
+		background-image: -moz-linear-gradient(top, #FFFFFF 0%, #888888 100%);
+		background-image: -o-linear-gradient(top, #FFFFFF 0%, #888888 100%);
+		background-image: linear-gradient(top, #FFFFFF 0%, #888888 100%);
+		background-image: -ms-linear-gradient(top, #FFFFFF 0%, #888888 100%);
+
+	}
+
+	.clear {clear:both;}
+
